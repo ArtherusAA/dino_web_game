@@ -1,0 +1,243 @@
+#mat {
+	width: 800px;
+	height: 300px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+
+#sand {
+	position: absolute;
+	/* background-color: #ff0; */
+	background-image: url(imgs/desbi.png);
+	margin-top: 250px;
+	width: 800px;
+	height: 50px;
+}
+
+.backgr {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 5px;
+	z-index: -4;
+}
+
+.backgr1 {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 5px;
+	z-index: -2;
+	background-image: url(imgs/desert.png);
+}
+
+.day {
+	background-color: #8CC5FF;
+}
+
+.sunset {
+	background-color: #FF2D73;
+}
+
+.night {
+	background-color: #000000;
+}
+
+.sunrise {
+	background-color: #FF2D73;
+}
+
+.cntrlPanel {
+	margin-top: 0px;
+	margin-left: 692px;
+	position: absolute;
+	height: 30px;
+	width: 100px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #aaa;
+	color: #333;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.sun {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url(imgs/sun.png);
+	z-index: -3;
+}
+
+
+.cloud {
+	position: absolute;
+	width: 200px;
+	height: 82px;
+	background-image: url(imgs/cloud.png);
+	margin-top: -200px;
+	z-index: -3;
+}
+
+/* #lesco {
+	width: 400px;
+	height: 70px;
+	background-color: #0f0;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5e5;
+	border-radius: 5px;
+	text-decoration: underline;
+	font-size: 2.8em;
+} */
+
+.ps, .pl {
+	width: 30px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+}
+
+.ps {
+	background-image: url(imgs/pause.png);
+}
+
+.pl {
+	background-image: url(imgs/play.png);
+}
+
+.pterR, .pterL {
+	position: absolute;
+	width: 140px;
+	height: 94px;
+	margin-top: -170px;
+}
+
+.pterL {
+	background-image: url(imgs/pterL.png);
+}
+
+.pterR {
+	background-image: url(imgs/pterR.png);
+}
+
+.cactus1, .cactus2, .cactus3 {
+	margin-top: -50px;
+	position: absolute;
+	width: 22px;
+	height: 50px;
+}
+
+.cactus1 {
+	background-image: url(imgs/cactus1.png);
+}
+
+.cactus2 {
+	background-image: url(imgs/cactus2.png);
+}
+
+.cactus3 {
+	background-image: url(imgs/cactus3.png);
+}
+
+.winobjs{
+	position: absolute;
+	width: 131px;
+	height: 40px;
+	margin-top: -40px;
+	background-image: url(imgs/peng.png);
+}
+
+.skob1, .skob2, .skob3, .spob1, .spob2, .spob3, .spob4 {
+	position: absolute;
+}
+
+.skob1 {
+	background-image: url(imgs/skob1.png);
+	width: 125px;
+	height: 50px;
+}
+
+.skob2 {
+	background-image: url(imgs/skob4.png);
+	width: 173px;
+	height: 40px;
+}
+
+.skob3 {
+	background-image: url(imgs/skob3.png);
+	width: 153px;
+	height: 50px;
+}
+
+.spob1 {
+	background-image: url(imgs/skob2.png);
+	width: 136px;
+	height: 60px;
+}
+
+.spob2 {
+	background-image: url(imgs/spob2.png);
+	width: 185px;
+	height: 50px;
+}
+
+.spob3 {
+	background-image: url(imgs/spob3.png);
+	width: 86px;
+	height: 70px;
+}
+
+.spob4 {
+	background-image: url(imgs/spob4.png);
+	width: 108px;
+	height: 50px;
+}
+
+.stone {
+	position: absolute;
+	background-image: url(imgs/stone.png);
+	width: 20px;
+	height: 20px;
+}
+
+.Dstopped, .Drun, .DstoppedInSp, .DrunInSp, .DstoppedInSn, .DrunInSn {
+	position: absolute;
+	margin-left: 30px;
+	background-image: url(imgs/dino.png);
+	width: 144px;
+	height: 70px;
+}
+
+.DrunInSp {
+	width: 154px;
+	height: 75px;
+	background-image: url(imgs/dinoRInSp.png);
+}
+
+.DstoppedInSp {
+	width: 154px;
+	height: 75px;
+	background-image: url(imgs/dinoInSp.png);
+}
+
+.DrunInSn {
+	height: 80px;
+	background-image: url(imgs/dinoRInSn.png);
+}
+
+.DstoppedInSn {
+	height: 80px;
+	background-image: url(imgs/dinoInSn.png);
+}
+
+.Drun {
+	background-image: url(imgs/dinoR.png);
+}

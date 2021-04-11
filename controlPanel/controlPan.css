@@ -1,0 +1,32 @@
+.mainCntrlPan {
+	width: 800px;
+	height: 150px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 2px;
+	background-image: url(miscvaldie.png);
+	font-family: monospace;
+	color: green;
+}
+
+#acc, #speed, #rass, #hacked {
+	background-color: rgba(255, 255, 255, 0);
+	color: green;
+	font-family: monospace;
+	outline: none;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-width: 1px;
+	border-color: green;
+}
+
+#hacked {
+	font-size: 20px;
+	border-style: solid;
+	border-color: green;
+	border-width: 2px;
+	width: auto;
+	margin-left: 200px;
+}
